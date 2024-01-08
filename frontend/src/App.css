@@ -1,42 +1,50 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  background-color: #2a3856;
+  color: #d1e5f7;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.title {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #d1e5f7;
+  margin-bottom: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.movieList {
+  width: 250px;
+  height: 350px;
+  margin-bottom: 90px;
+  margin-left: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.movieName {
+  margin: 0px;
 }
 
-.card {
-  padding: 2em;
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
 }
 
-.read-the-docs {
-  color: #888;
+.rating {
+  font-size: small;
+  margin: 5px 0px 10px;
+}
+
+.starRating {
+  width: 15px;
+  margin-right: 5px;
+}
+
+.img {
+  width: 150px;
+  height: 200px;
+}
+
+#genre {
+  border: 1px solid #d1e5f7;
+  border-radius: 5px;
+  width: max-content;
+  margin-top: 5px;
+  padding: 2px 5px;
 }
