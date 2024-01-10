@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #d1e5f7;
+}
+.actor {
+  color: #d1e5f7;
+  margin-left: 580px;
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+
+.link {
+  color: #d1e5f7;
+  text-decoration: none;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}

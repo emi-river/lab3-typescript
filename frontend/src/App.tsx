@@ -2,6 +2,7 @@ import * as React from "react"
 import { useEffect, useState } from 'react'
 import './App.css'
 
+
 interface movieListState{
   id: number;
   name: string,
@@ -11,7 +12,7 @@ interface movieListState{
   description: string
 }
 
-function App() {
+function Root() {
   const [movies, setMovies] = useState<movieListState[]>([])
   const [name, setName] = useState('')
   const [genre, setGenre] = useState('')
@@ -69,9 +70,6 @@ function App() {
 
   return (
     <>
-      <div className="title">
-        <h1>Movies</h1>
-      </div>
       <div className="container">
         {movies.map((movie) => (
           <div className="movieList" key={movie.id}>
@@ -137,4 +135,4 @@ function App() {
   )
 }
 
-export default App
+export default Root

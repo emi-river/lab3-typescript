@@ -6,7 +6,7 @@ Given('Användaren är på hemsidan och det finns en knapp "Actors".', () => {
 })
 
 When('Användaren klickar på knappen.', () => {
-  cy.get('nav').find('#actors').click()
+  cy.get('nav').find('.link').click()
 })
 
 Then('Användaren hamnar på en sida med en lista på skådespelare.', () => {

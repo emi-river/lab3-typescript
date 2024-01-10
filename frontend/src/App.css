@@ -3,13 +3,6 @@
   color: #d1e5f7;
 }
 
-.title {
-  display: flex;
-  justify-content: center;
-  border-bottom: 1px solid #d1e5f7;
-  margin-bottom: 20px;
-}
-
 .movieList {
   width: 250px;
   height: 350px;
@@ -41,7 +34,7 @@
   height: 200px;
 }
 
-#genre {
+.genre {
   border: 1px solid #d1e5f7;
   border-radius: 5px;
   width: max-content;
