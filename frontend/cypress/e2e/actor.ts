@@ -9,6 +9,6 @@ When('Användaren klickar på knappen.', () => {
   cy.get('nav').find('.link').click()
 })
 
-Then('Användaren hamnar på en sida med en lista på skådespelare.', () => {
+Then('Användaren hamnar på en sida med en titel "Actors".', () => {
 cy.get('h2').should('have.text', text)
 })

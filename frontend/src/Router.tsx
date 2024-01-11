@@ -11,7 +11,7 @@ function Nav() {
       <div className="title">
         <h1><Link className='link' to='/'>Movies</Link></h1>
       </div>
-      <div className='container'>
+      <div className='containers'>
         <nav>
         <li className='actor'><Link className='link' to='/actors'>Actors</Link></li>
       </nav>
