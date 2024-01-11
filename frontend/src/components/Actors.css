@@ -1,0 +1,31 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.actorImage {
+  width: 150px;
+  height: 200px;
+}
+
+.listContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+}
+
+li {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.styleButton {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+}

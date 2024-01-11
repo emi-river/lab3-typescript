@@ -1,12 +1,14 @@
 import Actors from '../../src/components/Actors'
-const button = 'listButton'
-const text = 'List of Actors'
+const button = '#showButton'
+const text = ['Meryl Streep', 'Johnny Depp', 'Anne Hathaway', 'Julie Andrews']
 
 describe('Visa lista via knapp', () => {
   it('Visa lista på skådespelare', () => {
     cy.mount(<Actors />)
-    cy.get('button').find(button).should('have.text', 'Show')
-    cy.get('button').find(button).click()
-    cy.get('ul').should('have.text', text)
+    cy.get(button).should('have.text', 'Show List!')
+    cy.get(button).click()
+    cy.get('li').each((li, index) => {
+      cy.wrap(li).should('have.text', text[index])
+    })
   })
 })

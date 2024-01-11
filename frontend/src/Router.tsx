@@ -1,4 +1,9 @@
-import { createHashRouter, Link, Outlet, RouterProvider } from 'react-router-dom'
+import {
+  createHashRouter,
+  Link,
+  Outlet,
+  RouterProvider
+} from 'react-router-dom'
 import Actors from './components/Actors'
 import './router.css'
 import Home from './App'
@@ -6,22 +11,28 @@ import Home from './App'
 function Nav() {
   return (
     <>
+      <div>
+        <div className="title">
+          <h1>
+            <Link className="link" to="/">
+              Movies
+            </Link>
+          </h1>
+        </div>
+        <div className="containers">
+          <nav>
+            <li className="actor">
+              <Link className="link" to="/actors">
+                List of Actors and Actresses
+              </Link>
+            </li>
+          </nav>
+        </div>
 
-    <div>
-      <div className="title">
-        <h1><Link className='link' to='/'>Movies</Link></h1>
+        <main>
+          <Outlet />
+        </main>
       </div>
-      <div className='containers'>
-        <nav>
-        <li className='actor'><Link className='link' to='/actors'>Actors</Link></li>
-      </nav>
-    </div>
-
-      <main>
-        <Outlet />
-      </main>
-    </div>
-
     </>
   )
 }
@@ -31,7 +42,7 @@ function Router() {
     {
       children: [
         { element: <Home />, path: '/' },
-        { element: <Actors />, path: '/actors'}
+        { element: <Actors />, path: '/actors' }
       ],
       element: <Nav />
     }

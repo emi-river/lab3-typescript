@@ -1,4 +1,4 @@
-.container {
+.containers {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
@@ -6,7 +6,6 @@
 }
 .actor {
   color: #d1e5f7;
-  margin-left: 580px;
   list-style-type: none;
   margin-bottom: 10px;
 }
@@ -14,6 +13,13 @@
 .link {
   color: #d1e5f7;
   text-decoration: none;
+}
+
+.link:hover {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 106%;
+  text-decoration: underline;
 }
 .title {
   display: flex;

@@ -1,14 +1,13 @@
-import * as React from "react"
+import * as React from 'react'
 import { useEffect, useState } from 'react'
 import './App.css'
 
-
-interface movieListState{
-  id: number;
-  name: string,
-  genre: string,
-  img: string,
-  rating: string,
+interface movieListState {
+  id: number
+  name: string
+  genre: string
+  img: string
+  rating: string
   description: string
 }
 
@@ -92,35 +91,35 @@ function Root() {
         <h3>ADD A MOVIE:</h3>
         <form onSubmit={addAMovie} method="POST">
           <input
-          id="name"
+            id="name"
             type="text"
             placeholder="Movie name"
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
           <input
-          id="genre"
+            id="genre"
             type="text"
             placeholder="Movie genre"
             onChange={(e) => setGenre(e.target.value)}
             value={genre}
           />
           <input
-          id="img"
+            id="img"
             type="text"
             placeholder="Image link"
             onChange={(e) => setImg(e.target.value)}
             value={img}
           />
           <input
-          id="rating"
+            id="rating"
             type="text"
             placeholder="IMDb rating"
             onChange={(e) => setRating(e.target.value)}
             value={rating}
           />
           <input
-          id="description"
+            id="description"
             type="text"
             placeholder="Movie description"
             onChange={(e) => setDescription(e.target.value)}

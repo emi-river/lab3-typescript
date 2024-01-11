@@ -34,12 +34,13 @@ When('Användaren har fyllt i fälten och lägger till en film.', () => {
   cy.get('form').find('#submit').click()
 })
 Then('Filmen ska visas på hemsidan.', () => {
-  cy.get('.container').within(() => {
-    cy.get('.movieName').should('include.text', Cypress.env('randomWord'))
-    cy.get('.genre').should('include.text', 'Comedy')
-    // cy.get('.img').should('have.attr', 'src').should('contain', img)
-    // cy.get('.img').should('have.attr', 'src', img)
-    cy.get('.rating').should('include.text', '7')
-    cy.get('.description').should('include.text', description)
-  })
+  cy.get('.movieList')
+    .last()
+    .within(() => {
+      cy.get('.movieName').should('include.text', Cypress.env('randomWord'))
+      cy.get('.genre').should('include.text', 'Comedy')
+      cy.get('.img').should('have.attr', 'src', img)
+      cy.get('.rating').should('include.text', '7')
+      cy.get('.description').should('include.text', description)
+    })
 })
