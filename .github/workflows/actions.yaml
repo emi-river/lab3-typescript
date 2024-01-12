@@ -19,7 +19,7 @@ jobs:
           cd frontend
           npm install
           npm run dev &
-          sleep 5
+          sleep 30
 
       - name: Cypress run
         run: |
