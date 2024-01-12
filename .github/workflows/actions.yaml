@@ -14,22 +14,13 @@ jobs:
           echo "PGURI=${{ secrets.PASS }}" > .env
           echo "POSTGRES_PASSWORD=${{ secrets.PASSW }}" >> .env
 
-      - name: Install
-        run: npm install
-
-      - name: Cypress run
-        uses: cypress-io/github-action@v6
-        with:
-          build: npm run build
-          start: npm start
-
-      - name: Start Application
+      - name: Start frontend
         run: |
           cd frontend
           npm install
           npm run dev
 
-      - name: Build and Cypress run
+      - name: Cypress run
         run: |
           cd frontend
           npx cypress run
