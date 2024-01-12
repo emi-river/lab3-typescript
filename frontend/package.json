@@ -16,6 +16,7 @@
     "cy:e2e": "start-server-and-test start http-get://localhost:3000 cy:open-e2e"
   },
   "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
     "mermaid": "^10.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
