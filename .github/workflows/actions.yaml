@@ -6,7 +6,7 @@ jobs:
   cypress:
     runs-on: ubuntu-22.04
     steps:
-       - name: Checkout
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Create .env file
