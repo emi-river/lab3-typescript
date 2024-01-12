@@ -21,7 +21,7 @@ const port = process.env.PORT || 3000;
 app.use(express_1.default.json());
 dotenv_1.default.config();
 const client = new pg_1.Client({
-    connectionString: process.env.PGURI,
+    connectionString: process.env.PGURI
 });
 client.connect();
 app.get('/movies', (_request, response) => __awaiter(void 0, void 0, void 0, function* () {
@@ -40,7 +40,8 @@ app.post('/movies', (request, response) => __awaiter(void 0, void 0, void 0, fun
         console.log(name);
         yield client.query('INSERT INTO movies(name, genre, img, rating, description) VALUES ($1, $2, $3, $4, $5);', [name, genre, img, rating, description]);
         const { rows } = yield client.query('SELECT * FROM movies');
-        response.status(500).send(rows);
+        console.log(rows);
+        response.status(200).send(rows);
     }
     catch (error) {
         console.error('Error inserting movie:', error);

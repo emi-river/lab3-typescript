@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build-frontend": "npm run --prefix ../my-frontend build && rm -Rf public && cp -R ../my-frontend/dist public",
+    "build": "npx tsc",
+    "dev": "concurrently \"nodemon index.js\" \"npx tsc --watch\"",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^8.2.2",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "nvm": "^0.0.4",

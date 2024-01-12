@@ -1,0 +1,32 @@
+name: Actions
+
+on: push
+
+jobs:
+  cypress:
+    runs-on: ubuntu-22.04
+    steps:
+       - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create .env file
+        run: |
+          echo "PGURI=${{ secrets.PASS }}" > .env
+          echo "POSTGRES_PASSWORD=${{ secrets.PASSW }}" >> .env
+
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          build: npm run build
+          start: npm start
+
+      - name: Start Application
+        run: |
+          cd frontend
+          npm install
+          npm run dev
+
+     - name: Build and Cypress run
+        run: |
+          cd frontend
+          npx cypress run

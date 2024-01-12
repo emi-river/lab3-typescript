@@ -2,5 +2,5 @@
   "compilerOptions": {
     "jsx": "preserve",
   },
-  "include": ["**/*.ts", "**/*.tsx", "cypress"]
+  "include": ["**/*.ts", "**/*.tsx"]
 }

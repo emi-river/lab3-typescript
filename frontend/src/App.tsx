@@ -51,6 +51,8 @@ function Root() {
         return response.json()
       })
       .then((movies) => {
+        console.log('hej')
+        console.log(movies)
         setMovies(movies)
         setName('')
         setGenre('')
@@ -59,12 +61,12 @@ function Root() {
         setDescription('')
       })
       .catch((error) => {
-        console.log(error)
+        console.log('hejsan', error)
       })
 
-    setTimeout(() => {
-      location.reload()
-    }, 100)
+    // setTimeout(() => {
+    //   location.reload()
+    // }, 100)
   }
 
   return (
