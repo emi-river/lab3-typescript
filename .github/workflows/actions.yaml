@@ -14,6 +14,9 @@ jobs:
           echo "PGURI=${{ secrets.PASS }}" > .env
           echo "POSTGRES_PASSWORD=${{ secrets.PASSW }}" >> .env
 
+      - name: Install
+        run: npm install
+
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
