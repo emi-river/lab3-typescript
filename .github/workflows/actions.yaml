@@ -24,4 +24,5 @@ jobs:
       - name: Cypress run
         run: |
           cd frontend
-          npx cypress run
+          npm start & wait-on http://localhost:3000
+          npm run cy:run-unit
