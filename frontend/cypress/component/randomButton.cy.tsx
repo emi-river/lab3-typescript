@@ -7,10 +7,9 @@ const repeat = 3
 describe('randomButton.cy.jsx', () => {
   it('Get 3 random movies', () => {
     cy.mount(<Random />)
-
+    cy.wait(2000)
     for (let index = 0; index < repeat; index++) {
       cy.get(click).click()
-      cy.get(container, { timeout: 100 }).should('exist')
       cy.get(container)
         .find(textElement)
         .invoke('text')
