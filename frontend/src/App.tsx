@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { useEffect, useState } from 'react'
 import './App.css'
+import { Link } from 'react-router-dom'
 
 interface movieListState {
   id: number
@@ -51,8 +52,6 @@ function Root() {
         return response.json()
       })
       .then((movies) => {
-        console.log('hej')
-        console.log(movies)
         setMovies(movies)
         setName('')
         setGenre('')
@@ -61,12 +60,8 @@ function Root() {
         setDescription('')
       })
       .catch((error) => {
-        console.log('hejsan', error)
+        console.log(error)
       })
-
-    // setTimeout(() => {
-    //   location.reload()
-    // }, 100)
   }
 
   return (
@@ -74,18 +69,20 @@ function Root() {
       <div className="container">
         {movies.map((movie) => (
           <div className="movieList" key={movie.id}>
-            <h2 className="movieName">{movie.name} </h2>
-            <h3 className="rating">
-              <img
-                className="starRating"
-                src="solar_star-line-duotone.png"
-                alt="Star icon"
-              />
-              {movie.rating}
-            </h3>
-            <img className="img" src={movie.img} alt="Movie picture." />
-            <p className="genre">{movie.genre}</p>
-            <p className="description">{movie.description}</p>
+            <Link className="link" to={`/${movie.id}`}>
+              <h2 className="movieName">{movie.name} </h2>
+              <h3 className="rating">
+                <img
+                  className="starRating"
+                  src="solar_star-line-duotone.png"
+                  alt="Star icon"
+                />
+                {movie.rating}
+              </h3>
+              <img className="img" src={movie.img} alt="Movie picture." />
+              <p className="genre">{movie.genre}</p>
+              <p className="description">{movie.description}</p>
+            </Link>
           </div>
         ))}
       </div>

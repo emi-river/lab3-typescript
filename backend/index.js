@@ -34,6 +34,13 @@ app.get('/movies', (_request, response) => __awaiter(void 0, void 0, void 0, fun
         response.status(500).send('Internal Server Error');
     }
 }));
+app.get('/movies/:id', (request, response) => __awaiter(void 0, void 0, void 0, function* () {
+    const id = request.params.id;
+    const { rows } = yield client.query('SELECT * FROM movies WHERE id = $1;', [
+        id
+    ]);
+    response.send(rows);
+}));
 app.post('/movies', (request, response) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const { name, genre, img, rating, description } = request.body;

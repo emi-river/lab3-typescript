@@ -4,9 +4,11 @@ import {
   Outlet,
   RouterProvider
 } from 'react-router-dom'
-import Actors from './components/Actors'
 import './router.css'
 import Home from './App'
+import Actors from './components/Actors'
+import OneMovie from './components/OneMovie'
+import Random from './components/Random'
 
 function Nav() {
   return (
@@ -21,9 +23,14 @@ function Nav() {
         </div>
         <div className="containers">
           <nav>
-            <li className="actor">
-              <Link className="link" to="/actors">
+            <li className="li-list">
+              <Link id="actorList" className="link" to="/actors">
                 List of Actors and Actresses
+              </Link>
+            </li>
+            <li id="randomMovie" className="li-list li-list-space">
+              <Link className="link" to="/random">
+                Randomizer
               </Link>
             </li>
           </nav>
@@ -42,7 +49,9 @@ function Router() {
     {
       children: [
         { element: <Home />, path: '/' },
-        { element: <Actors />, path: '/actors' }
+        { element: <Actors />, path: '/actors' },
+        { element: <OneMovie />, path: '/:id' },
+        { element: <Random />, path: '/random' }
       ],
       element: <Nav />
     }

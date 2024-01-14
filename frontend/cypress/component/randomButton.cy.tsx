@@ -1,0 +1,22 @@
+import Random from '../../src/components/Random'
+const click = '#button'
+const container = '.randomMovie'
+const textElement = 'h3'
+const repeat = 3
+
+describe('randomButton.cy.jsx', () => {
+  it('Get 3 random movies', () => {
+    cy.mount(<Random />)
+
+    for (let index = 0; index < repeat; index++) {
+      cy.get(click).click()
+      cy.get(container, { timeout: 100 }).should('exist')
+      cy.get(container)
+        .find(textElement)
+        .invoke('text')
+        .then((movie) => {
+          cy.log(`Movie Title: ${movie}`)
+        })
+    }
+  })
+})

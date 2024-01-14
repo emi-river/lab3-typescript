@@ -9,7 +9,7 @@ Given(
 )
 
 When('Användaren klickar på knappen.', () => {
-  cy.get('nav').find('.link').click()
+  cy.get('nav').find('#actorList').click()
 })
 
 Then(

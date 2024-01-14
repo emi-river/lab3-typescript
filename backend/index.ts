@@ -26,6 +26,15 @@ app.get('/movies', async (_request: Request, response: Response) => {
   }
 })
 
+app.get('/movies/:id', async (request, response) => {
+  const id = request.params.id
+  const { rows } = await client.query('SELECT * FROM movies WHERE id = $1;', [
+    id
+  ])
+
+  response.send(rows)
+})
+
 app.post('/movies', async (request: Request, response: Response) => {
   try {
     const { name, genre, img, rating, description } = request.body
