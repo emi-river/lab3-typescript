@@ -1,0 +1,13 @@
+.randomMovie {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.randomImg {
+  width: 200px;
+  height: 250px;
+}
+#randomButton {
+  width: auto;
+  height: auto;
+}

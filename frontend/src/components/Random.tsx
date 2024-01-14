@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import './Random.css'
 interface states {
   name: string
   img: string
@@ -32,13 +33,13 @@ function Random() {
           Can't decide what to watch? Click on the button and get a movie to
           watch!
         </p>
-        <button id="button" onClick={randomize}>
+        <button id="randomButton" onClick={randomize}>
           {buttonText}
         </button>
         {random && (
           <div className="randomMovie">
             <h3 className="movieName">{random.name}</h3>
-            <img src={random.img} alt="Movie picture" />
+            <img className="randomImg" src={random.img} alt="Movie picture" />
           </div>
         )}
       </div>

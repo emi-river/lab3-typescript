@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import './OneMovie.css'
 
 interface Movie {
   name: string
@@ -26,13 +27,12 @@ function OneMovie() {
     <>
       {movieInfo && (
         <div>
+          <h1 className="title">{movieInfo.name}</h1>
           <div id="selectedMovie">
-            <h1>{movieInfo.name}</h1>
-            <img src={movieInfo.img} />
+            <img className="oneImg" src={movieInfo.img} />
+            <p className="movieDesc">{movieInfo.description}</p>
           </div>
-          <div>
-            <p>{movieInfo.description}</p>
-          </div>
+          <p>More features coming soon...</p>
         </div>
       )}
     </>

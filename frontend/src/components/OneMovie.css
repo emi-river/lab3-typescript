@@ -1,0 +1,19 @@
+.title {
+  text-align: center;
+}
+
+#selectedMovie {
+  display: flex;
+  margin-left: 150px;
+}
+
+.oneImg {
+  width: 230px;
+  height: 350px;
+}
+
+.movieDesc {
+  margin-left: 30px;
+  width: 450px;
+  height: auto;
+}

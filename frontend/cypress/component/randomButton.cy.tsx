@@ -1,5 +1,5 @@
 import Random from '../../src/components/Random'
-const click = '#button'
+const click = '#randomButton'
 const container = '.randomMovie'
 const textElement = 'h3'
 const repeat = 3
