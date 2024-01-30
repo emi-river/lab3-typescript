@@ -14,9 +14,6 @@ jobs:
           echo ${{ secrets.PASS }} > .env
           echo ${{ secrets.PASSW }} >> .env
 
-      - name: Start Docker
-        run: docker-compose -f compose.yaml up -d
-
       - name: Start frontend
         run: |
           cd frontend

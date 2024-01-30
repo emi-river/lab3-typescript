@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1705251567011" clover="3.2.0">
-  <project timestamp="1705251567011" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3" elements="16" coveredelements="16" complexity="0" loc="8" ncloc="8" packages="2" files="6" classes="6"/>
+<coverage generated="1706647362796" clover="3.2.0">
+  <project timestamp="1706647362797" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="7" coveredconditionals="6" methods="6" coveredmethods="6" elements="30" coveredelements="29" complexity="0" loc="17" ncloc="17" packages="2" files="6" classes="6"/>
     <package name="src">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="App.tsx" path="C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/App.tsx">
@@ -15,23 +15,32 @@
       </file>
     </package>
     <package name="src.components">
-      <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+      <metrics statements="17" coveredstatements="17" conditionals="7" coveredconditionals="6" methods="6" coveredmethods="6"/>
       <file name="Actors.tsx" path="C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Actors.tsx">
-        <metrics statements="8" coveredstatements="8" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
-        <line num="1" count="18" type="cond" truecount="3" falsecount="0"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="7" count="4" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="64" count="2" type="stmt"/>
-        <line num="65" count="2" type="stmt"/>
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
       <file name="OneMovie.tsx" path="C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/OneMovie.tsx">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
       <file name="Random.tsx" path="C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Random.tsx">
-        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <metrics statements="17" coveredstatements="17" conditionals="7" coveredconditionals="6" methods="6" coveredmethods="6"/>
+        <line num="1" count="16" type="cond" truecount="4" falsecount="1"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="21" count="10" type="stmt"/>
+        <line num="22" count="6" type="stmt"/>
+        <line num="23" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
       </file>
     </package>
   </project>

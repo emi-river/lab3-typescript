@@ -1,6 +1,6 @@
 {
-  "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Actors.tsx": {
-    "path": "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Actors.tsx",
+  "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Random.tsx": {
+    "path": "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Random.tsx",
     "statementMap": {
       "0": {
         "start": {
@@ -115,180 +115,270 @@
       "11": {
         "start": {
           "line": 22,
-          "column": 26
+          "column": 36
         },
         "end": {
           "line": 22,
-          "column": 41
+          "column": 48
         }
       },
       "12": {
         "start": {
           "line": 23,
-          "column": 16
+          "column": 30
         },
         "end": {
-          "line": 25,
-          "column": 3
+          "line": 23,
+          "column": 44
         }
       },
       "13": {
         "start": {
           "line": 24,
-          "column": 4
+          "column": 38
         },
         "end": {
           "line": 24,
-          "column": 19
+          "column": 59
         }
       },
       "14": {
         "start": {
-          "line": 26,
+          "line": 25,
           "column": 2
         },
         "end": {
-          "line": 157,
-          "column": 11
+          "line": 29,
+          "column": 9
         }
       },
       "15": {
         "start": {
-          "line": 159,
-          "column": 0
+          "line": 26,
+          "column": 4
         },
         "end": {
-          "line": 159,
-          "column": 43
+          "line": 28,
+          "column": 7
         }
       },
       "16": {
         "start": {
-          "line": 160,
-          "column": 0
+          "line": 26,
+          "column": 40
         },
         "end": {
-          "line": 160,
-          "column": 12
+          "line": 26,
+          "column": 55
         }
       },
       "17": {
         "start": {
-          "line": 163,
-          "column": 0
+          "line": 27,
+          "column": 6
         },
         "end": {
-          "line": 163,
+          "line": 27,
           "column": 27
         }
       },
       "18": {
         "start": {
-          "line": 164,
-          "column": 0
+          "line": 30,
+          "column": 20
         },
         "end": {
-          "line": 177,
-          "column": 1
+          "line": 35,
+          "column": 3
         }
       },
       "19": {
         "start": {
-          "line": 165,
-          "column": 2
+          "line": 31,
+          "column": 24
         },
         "end": {
-          "line": 165,
-          "column": 39
+          "line": 31,
+          "column": 68
         }
       },
       "20": {
         "start": {
-          "line": 166,
-          "column": 2
+          "line": 32,
+          "column": 28
         },
         "end": {
-          "line": 166,
-          "column": 39
+          "line": 32,
+          "column": 50
         }
       },
       "21": {
         "start": {
-          "line": 167,
-          "column": 2
+          "line": 33,
+          "column": 4
         },
         "end": {
-          "line": 176,
-          "column": 5
+          "line": 33,
+          "column": 31
         }
       },
       "22": {
         "start": {
-          "line": 168,
+          "line": 34,
           "column": 4
         },
         "end": {
-          "line": 168,
-          "column": 145
+          "line": 34,
+          "column": 37
         }
       },
       "23": {
         "start": {
-          "line": 169,
-          "column": 4
+          "line": 36,
+          "column": 2
         },
         "end": {
-          "line": 175,
-          "column": 7
+          "line": 76,
+          "column": 11
         }
       },
       "24": {
         "start": {
-          "line": 170,
-          "column": 6
+          "line": 78,
+          "column": 0
         },
         "end": {
-          "line": 171,
-          "column": 15
+          "line": 78,
+          "column": 43
         }
       },
       "25": {
         "start": {
-          "line": 171,
-          "column": 8
+          "line": 79,
+          "column": 0
         },
         "end": {
-          "line": 171,
-          "column": 15
+          "line": 79,
+          "column": 12
         }
       },
       "26": {
         "start": {
-          "line": 172,
-          "column": 32
+          "line": 82,
+          "column": 0
         },
         "end": {
-          "line": 172,
-          "column": 115
+          "line": 82,
+          "column": 27
         }
       },
       "27": {
         "start": {
-          "line": 173,
-          "column": 6
+          "line": 83,
+          "column": 0
         },
         "end": {
-          "line": 174,
-          "column": 54
+          "line": 96,
+          "column": 1
         }
       },
       "28": {
         "start": {
-          "line": 174,
+          "line": 84,
+          "column": 2
+        },
+        "end": {
+          "line": 84,
+          "column": 39
+        }
+      },
+      "29": {
+        "start": {
+          "line": 85,
+          "column": 2
+        },
+        "end": {
+          "line": 85,
+          "column": 39
+        }
+      },
+      "30": {
+        "start": {
+          "line": 86,
+          "column": 2
+        },
+        "end": {
+          "line": 95,
+          "column": 5
+        }
+      },
+      "31": {
+        "start": {
+          "line": 87,
+          "column": 4
+        },
+        "end": {
+          "line": 87,
+          "column": 145
+        }
+      },
+      "32": {
+        "start": {
+          "line": 88,
+          "column": 4
+        },
+        "end": {
+          "line": 94,
+          "column": 7
+        }
+      },
+      "33": {
+        "start": {
+          "line": 89,
+          "column": 6
+        },
+        "end": {
+          "line": 90,
+          "column": 15
+        }
+      },
+      "34": {
+        "start": {
+          "line": 90,
           "column": 8
         },
         "end": {
-          "line": 174,
+          "line": 90,
+          "column": 15
+        }
+      },
+      "35": {
+        "start": {
+          "line": 91,
+          "column": 32
+        },
+        "end": {
+          "line": 91,
+          "column": 115
+        }
+      },
+      "36": {
+        "start": {
+          "line": 92,
+          "column": 6
+        },
+        "end": {
+          "line": 93,
+          "column": 54
+        }
+      },
+      "37": {
+        "start": {
+          "line": 93,
+          "column": 8
+        },
+        "end": {
+          "line": 93,
           "column": 54
         }
       }
@@ -319,7 +409,7 @@
         "line": 12
       },
       "1": {
-        "name": "Actors",
+        "name": "Random",
         "decl": {
           "start": {
             "line": 20,
@@ -336,7 +426,7 @@
             "column": 18
           },
           "end": {
-            "line": 158,
+            "line": 77,
             "column": 1
           }
         },
@@ -346,73 +436,145 @@
         "name": "(anonymous_2)",
         "decl": {
           "start": {
-            "line": 23,
-            "column": 16
+            "line": 25,
+            "column": 12
           },
           "end": {
-            "line": 23,
-            "column": 17
+            "line": 25,
+            "column": 13
           }
         },
         "loc": {
           "start": {
-            "line": 23,
-            "column": 22
+            "line": 25,
+            "column": 18
           },
           "end": {
-            "line": 25,
+            "line": 29,
             "column": 3
           }
         },
-        "line": 23
+        "line": 25
       },
       "3": {
         "name": "(anonymous_3)",
         "decl": {
           "start": {
-            "line": 167,
-            "column": 52
+            "line": 26,
+            "column": 26
           },
           "end": {
-            "line": 167,
-            "column": 53
+            "line": 26,
+            "column": 27
           }
         },
         "loc": {
           "start": {
-            "line": 167,
-            "column": 72
+            "line": 26,
+            "column": 40
           },
           "end": {
-            "line": 176,
-            "column": 3
+            "line": 26,
+            "column": 55
           }
         },
-        "line": 167
+        "line": 26
       },
       "4": {
         "name": "(anonymous_4)",
         "decl": {
           "start": {
-            "line": 169,
+            "line": 26,
+            "column": 62
+          },
+          "end": {
+            "line": 26,
+            "column": 63
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 74
+          },
+          "end": {
+            "line": 28,
+            "column": 5
+          }
+        },
+        "line": 26
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 20
+          },
+          "end": {
+            "line": 30,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 26
+          },
+          "end": {
+            "line": 35,
+            "column": 3
+          }
+        },
+        "line": 30
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 86,
+            "column": 52
+          },
+          "end": {
+            "line": 86,
+            "column": 53
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 86,
+            "column": 72
+          },
+          "end": {
+            "line": 95,
+            "column": 3
+          }
+        },
+        "line": 86
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 88,
             "column": 27
           },
           "end": {
-            "line": 169,
+            "line": 88,
             "column": 28
           }
         },
         "loc": {
           "start": {
-            "line": 169,
+            "line": 88,
             "column": 44
           },
           "end": {
-            "line": 175,
+            "line": 94,
             "column": 5
           }
         },
-        "line": 169
+        "line": 88
       }
     },
     "branchMap": {
@@ -551,47 +713,47 @@
       "4": {
         "loc": {
           "start": {
-            "line": 32,
+            "line": 52,
             "column": 4
           },
           "end": {
-            "line": 152,
+            "line": 67,
             "column": 12
           }
         },
-        "type": "cond-expr",
+        "type": "binary-expr",
         "locations": [
           {
             "start": {
-              "line": 32,
-              "column": 27
+              "line": 52,
+              "column": 4
             },
             "end": {
-              "line": 144,
-              "column": 12
+              "line": 52,
+              "column": 10
             }
           },
           {
             "start": {
-              "line": 144,
-              "column": 31
+              "line": 52,
+              "column": 30
             },
             "end": {
-              "line": 152,
+              "line": 67,
               "column": 12
             }
           }
         ],
-        "line": 32
+        "line": 52
       },
       "5": {
         "loc": {
           "start": {
-            "line": 164,
+            "line": 83,
             "column": 0
           },
           "end": {
-            "line": 177,
+            "line": 96,
             "column": 1
           }
         },
@@ -599,11 +761,11 @@
         "locations": [
           {
             "start": {
-              "line": 164,
+              "line": 83,
               "column": 0
             },
             "end": {
-              "line": 177,
+              "line": 96,
               "column": 1
             }
           },
@@ -612,16 +774,16 @@
             "end": {}
           }
         ],
-        "line": 164
+        "line": 83
       },
       "6": {
         "loc": {
           "start": {
-            "line": 164,
+            "line": 83,
             "column": 4
           },
           "end": {
-            "line": 164,
+            "line": 83,
             "column": 35
           }
         },
@@ -629,35 +791,35 @@
         "locations": [
           {
             "start": {
-              "line": 164,
+              "line": 83,
               "column": 4
             },
             "end": {
-              "line": 164,
+              "line": 83,
               "column": 19
             }
           },
           {
             "start": {
-              "line": 164,
+              "line": 83,
               "column": 23
             },
             "end": {
-              "line": 164,
+              "line": 83,
               "column": 35
             }
           }
         ],
-        "line": 164
+        "line": 83
       },
       "7": {
         "loc": {
           "start": {
-            "line": 170,
+            "line": 89,
             "column": 6
           },
           "end": {
-            "line": 171,
+            "line": 90,
             "column": 15
           }
         },
@@ -665,11 +827,11 @@
         "locations": [
           {
             "start": {
-              "line": 170,
+              "line": 89,
               "column": 6
             },
             "end": {
-              "line": 171,
+              "line": 90,
               "column": 15
             }
           },
@@ -678,16 +840,16 @@
             "end": {}
           }
         ],
-        "line": 170
+        "line": 89
       },
       "8": {
         "loc": {
           "start": {
-            "line": 173,
+            "line": 92,
             "column": 6
           },
           "end": {
-            "line": 174,
+            "line": 93,
             "column": 54
           }
         },
@@ -695,11 +857,11 @@
         "locations": [
           {
             "start": {
-              "line": 173,
+              "line": 92,
               "column": 6
             },
             "end": {
-              "line": 174,
+              "line": 93,
               "column": 54
             }
           },
@@ -708,7 +870,7 @@
             "end": {}
           }
         ],
-        "line": 173
+        "line": 92
       }
     },
     "s": {
@@ -722,32 +884,44 @@
       "7": 2,
       "8": 2,
       "9": 2,
-      "10": 4,
-      "11": 4,
-      "12": 4,
-      "13": 2,
-      "14": 4,
+      "10": 10,
+      "11": 10,
+      "12": 10,
+      "13": 10,
+      "14": 10,
       "15": 2,
       "16": 2,
       "17": 2,
-      "18": 2,
-      "19": 2,
-      "20": 2,
-      "21": 2,
-      "22": 2,
-      "23": 2,
-      "24": 0,
-      "25": 0,
-      "26": 0,
-      "27": 0,
-      "28": 0
+      "18": 10,
+      "19": 6,
+      "20": 6,
+      "21": 6,
+      "22": 6,
+      "23": 10,
+      "24": 2,
+      "25": 2,
+      "26": 2,
+      "27": 2,
+      "28": 2,
+      "29": 2,
+      "30": 2,
+      "31": 2,
+      "32": 2,
+      "33": 0,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0
     },
     "f": {
       "0": 2,
-      "1": 4,
+      "1": 10,
       "2": 2,
       "3": 2,
-      "4": 0
+      "4": 2,
+      "5": 6,
+      "6": 2,
+      "7": 0
     },
     "b": {
       "0": [
@@ -767,8 +941,8 @@
         2
       ],
       "4": [
-        2,
-        2
+        10,
+        6
       ],
       "5": [
         2,
@@ -789,24 +963,41 @@
     },
     "inputSourceMap": {
       "version": 3,
-      "mappings": "AAWI,mBACE,cADF;2BAXJ;AAAiB,MAAQ,cAAO;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAChC,OAAO;AAEP,SAASA,SAAS;AAAAC,KAAA;AAChB,QAAM,CAACC,MAAMC,OAAO,IAAIC,SAAS,KAAK;AAEtC,QAAMC,QAAQA,MAAM;AAClBF,YAAQ,CAACD,IAAI;AAAA,EACf;AAEA,SACE,mCACE;AAAA,2BAAC,QAAG,WAAU,SAAQ,oCAAtB;AAAA;AAAA;AAAA;AAAA,WAA0C;AAAA,IAEzCA,OACC,uBAAC,SACC;AAAA,6BAAC,QAAG,WAAU,iBACZ;AAAA,+BAAC,QAAG;AAAA;AAAA,UAEF;AAAA,YAAC;AAAA;AAAA,cACC,WAAU;AAAA,cACV,KAAI;AAAA,cACJ,KAAI;AAAA;AAAA,YAHN;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,UAG+B;AAAA,aALjC;AAAA;AAAA;AAAA;AAAA,eAOA;AAAA,QACA,uBAAC,QAAG;AAAA;AAAA,UAEF;AAAA,YAAC;AAAA;AAAA,cACC,WAAU;AAAA,cACV,KAAI;AAAA,cACJ,KAAI;AAAA;AAAA,YAHN;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,UAG8B;AAAA,aALhC;AAAA;AAAA;AAAA;AAAA,eAOA;AAAA,QACA,uBAAC,QAAG;AAAA;AAAA,UAEF;AAAA,YAAC;AAAA;AAAA,cACC,WAAU;AAAA,cACV,KAAI;AAAA,cACJ,KAAI;AAAA;AAAA,YAHN;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,UAGgC;AAAA,aALlC;AAAA;AAAA;AAAA;AAAA,eAOA;AAAA,QACA,uBAAC,QAAG;AAAA;AAAA,UAEF;AAAA,YAAC;AAAA;AAAA,cACC,WAAU;AAAA,cACV,KAAI;AAAA,cACJ,KAAI;AAAA;AAAA,YAHN;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA,UAGgC;AAAA,aALlC;AAAA;AAAA;AAAA;AAAA,eAOA;AAAA,WAhCF;AAAA;AAAA;AAAA;AAAA,aAiCA;AAAA,MACA,uBAAC,SAAI,WAAU,eACb,iCAAC,YAAO,SAASG,OAAO,yBAAxB;AAAA;AAAA;AAAA;AAAA,aAAiC,KADnC;AAAA;AAAA;AAAA;AAAA,aAEA;AAAA,SArCF;AAAA;AAAA;AAAA;AAAA,WAsCA,IAEA,uBAAC,SAAI,WAAU,eACb,iCAAC,YAAO,IAAG,cAAa,SAASA,OAAO,0BAAxC;AAAA;AAAA;AAAA;AAAA,WAEA,KAHF;AAAA;AAAA;AAAA;AAAA,WAIA;AAAA,OAhDJ;AAAA;AAAA;AAAA;AAAA,SAkDA;AAEJ;AAACJ,GA5DQD,QAAM;AAAAM,KAANN;AA6DT,eAAeA;AAAM,IAAAM;AAAAC,aAAAD,IAAA",
+      "mappings": "AA4BI,mBAEI,cAFJ;2BA5BJ;AAAoBA,oBAAgB,OAAO;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAC3C,OAAO;AAMP,SAASC,SAAS;AAAAC,KAAA;AAChB,QAAM,CAACC,WAAWC,YAAY,IAAIJ,SAAmB,EAAE;AACvD,QAAM,CAACK,QAAQC,SAAS,IAAIN,SAAwB,IAAI;AACxD,QAAM,CAACO,YAAYC,aAAa,IAAIR,SAAS,WAAW;AAExDS,YAAU,MAAM;AACdC,UAAM,SAAS,EACZC,KAAK,CAACC,aAAaA,SAASC,KAAK,CAAC,EAClCF,KAAK,CAACG,WAAqB;AAC1BV,mBAAaU,MAAM;AAAA,IACrB,CAAC;AAAA,EACL,GAAG,EAAE;AAEL,QAAMC,YAAYA,MAAM;AACtB,UAAMC,cAAcC,KAAKC,MAAMD,KAAKZ,OAAO,IAAIF,UAAUgB,MAAM;AAC/D,UAAMC,kBAAkBjB,UAAUa,WAAW;AAC7CV,cAAUc,eAAe;AACzBZ,kBAAc,iBAAiB;AAAA,EACjC;AAEA,SACE,mCACE,iCAAC,SACC;AAAA,2BAAC,QAAG,oCAAJ;AAAA;AAAA;AAAA;AAAA,WAAwB;AAAA,IACxB,uBAAC,OAAE,yFAAH;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,IACA,uBAAC,YAAO,IAAG,gBAAe,SAASO,WAChCR,wBADH;AAAA;AAAA;AAAA;AAAA,WAEA;AAAA,IACCF,UACC,uBAAC,SAAI,WAAU,eACb;AAAA,6BAAC,QAAG,WAAU,aAAaA,iBAAOgB,QAAlC;AAAA;AAAA;AAAA;AAAA,aAAuC;AAAA,MACvC,uBAAC,SAAI,WAAU,aAAY,KAAKhB,OAAOiB,KAAK,KAAI,mBAAhD;AAAA;AAAA;AAAA;AAAA,aAA+D;AAAA,SAFjE;AAAA;AAAA;AAAA;AAAA,WAGA;AAAA,OAbJ;AAAA;AAAA;AAAA;AAAA,SAeA,KAhBF;AAAA;AAAA;AAAA;AAAA,SAiBA;AAEJ;AAACpB,GAxCQD,QAAM;AAAAsB,KAANtB;AAyCT,eAAeA;AAAM,IAAAsB;AAAAC,aAAAD,IAAA",
       "names": [
-        "Actors",
-        "_s",
-        "list",
-        "setList",
         "useState",
-        "click",
+        "Random",
+        "_s",
+        "allMovies",
+        "setAllMovies",
+        "random",
+        "setRandom",
+        "buttonText",
+        "setButtonText",
+        "useEffect",
+        "fetch",
+        "then",
+        "response",
+        "json",
+        "result",
+        "randomize",
+        "randomIndex",
+        "Math",
+        "floor",
+        "length",
+        "randomizedMovie",
+        "name",
+        "img",
         "_c",
         "$RefreshReg$"
       ],
       "sources": [
-        "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Actors.tsx"
+        "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Random.tsx"
       ],
-      "file": "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Actors.tsx"
+      "file": "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Random.tsx"
     },
     "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "14a189494cfb7675edc6bca2545cc580144cdd75"
+    "hash": "3a290bfab82d6d8129bbff621de9fe7e098c488a"
   },
   "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/App.tsx": {
     "path": "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/App.tsx",
@@ -835,8 +1026,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/OneMovie.tsx": {
-    "path": "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/OneMovie.tsx",
+  "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Actors.tsx": {
+    "path": "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Actors.tsx",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
@@ -844,8 +1035,8 @@
     "f": {},
     "b": {}
   },
-  "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Random.tsx": {
-    "path": "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/Random.tsx",
+  "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/OneMovie.tsx": {
+    "path": "C:/Users/Emilia/Desktop/Avancera/Te/LAB3/frontend/src/components/OneMovie.tsx",
     "statementMap": {},
     "fnMap": {},
     "branchMap": {},
