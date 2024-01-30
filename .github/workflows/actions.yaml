@@ -11,8 +11,8 @@ jobs:
 
       - name: Get .env file
         run: |
-          echo "PGURI=${{ secrets.PASS }}" > .env
-          echo "POSTGRES_PASSWORD=${{ secrets.PASSW }}" >> .env
+          echo ${{ secrets.PASS }} > .env
+          echo ${{ secrets.PASSW }} >> .env
 
       - name: Start frontend
         run: |
